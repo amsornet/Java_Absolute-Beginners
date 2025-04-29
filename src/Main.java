@@ -54,11 +54,18 @@ public class Main {
 //        bob1.speak();
 //        joe1.speak();
 
-        StaticMeanDog tim = new StaticMeanDog("tim", 9);
-        StaticMeanDog bill = new StaticMeanDog("bill", 10);
-        StaticMeanDog.count = 7;
+//        StaticMeanDog tim = new StaticMeanDog("tim", 9);
+//        StaticMeanDog bill = new StaticMeanDog("bill", 10);
+//        StaticMeanDog.count = 7;
+//
+//        System.out.println(StaticMeanDog.count);
 
-        System.out.println(StaticMeanDog.count);
+        Student joe = new Student("Joe");
+        Student bill = new Student("Bill");
+        Student tim = new Student("Tim");
+
+        System.out.println(tim.toString());
+        System.out.println(bill.toString());
 
 
 
