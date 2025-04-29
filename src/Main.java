@@ -18,39 +18,49 @@ public class Main {
 //        System.out.println(str);
 //        System.out.println(tim);
 
-        CreatingClassesDog tim = new CreatingClassesDog("tim", 4);
-        tim.speak();
-
-        CreatingClassesDog bill = new CreatingClassesDog("bill", 7);
-        bill.speak();
-
-        CreatingClassesDog bob = new CreatingClassesDog("bob", 11);
-        bob.speak();
-
-        tim.speak();
-
-        int x = tim.getAge();
-        System.out.println(x);
-
-        tim.setAge(10);
-        tim.speak();
-
+//        CreatingClassesDog tim = new CreatingClassesDog("tim", 4);
+//        tim.speak();
+//
+//        CreatingClassesDog bill = new CreatingClassesDog("bill", 7);
+//        bill.speak();
+//
+//        CreatingClassesDog bob = new CreatingClassesDog("bob", 11);
+//        bob.speak();
+//
+//        tim.speak();
+//
+//        int x = tim.getAge();
+//        System.out.println(x);
+//
+//        tim.setAge(10);
+//        tim.speak();
+//
 //        tim.add2();
+//
+//        InheritanceCat tim1 = new InheritanceCat("tim", 18, 100);
+//        tim1.speak();
+//
+//        InheritanceCat bob1 = new InheritanceCat("bob", 7);
+//
+//
+//        InheritanceCat joe1 = new InheritanceCat("bob", 7);
+//
+//
+//        tim1.speak();
+//        bob1.speak();
+//        joe1.speak();
+//
+//        int x1 = tim1.getAge();
+//        bob1.speak();
+//        joe1.speak();
 
-        InheritanceCat tim1 = new InheritanceCat("tim", 18, 100);
-        tim1.speak();
+        StaticMeanDog tim = new StaticMeanDog("tim", 9);
+        StaticMeanDog bill = new StaticMeanDog("bill", 10);
+        StaticMeanDog.count = 7;
 
-        InheritanceCat bob1 = new InheritanceCat("bob", 7);
-
-
-        InheritanceCat joe = new InheritanceCat("bob", 7);
+        System.out.println(StaticMeanDog.count);
 
 
-        tim1.speak();
-        bob1.speak();
-        joe.speak();
-
-        int x1 = tim1.getAge();
 
 
 
