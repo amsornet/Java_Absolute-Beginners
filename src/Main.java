@@ -78,13 +78,36 @@ public class Main {
 //        ford.speedUp(10);
 //        ford.changeGear(2);
 //        ford.display();
-        int x = Vehicle.math(5);
+//        int x = Vehicle.math(5);
 //        Math.sqrt();
 
 
 
 
-        System.out.println(x);
+//        System.out.println(x);
+
+        Level lvl = Level.LOW;
+//        Level[] arr = Level.values();
+
+//        for (Level e: arr){
+//            System.out.println(e);
+//        }
+
+
+
+//        if (lvl == Level.LOW) {
+//            System.out.println(lvl);
+//
+//        } else if (lvl == Level.MEDIUM) {
+//            System.out.println(lvl);
+//
+//        }
+//        else {
+//            System.out.println(lvl);
+//        }
+
+        lvl.setLvl(5);
+        System.out.println(lvl.getLvl());
 
 
 
