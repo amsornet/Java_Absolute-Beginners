@@ -60,12 +60,32 @@ public class Main {
 //
 //        System.out.println(StaticMeanDog.count);
 
-        Student joe = new Student("Joe");
-        Student bill = new Student("Bill");
-        Student tim = new Student("Tim");
+//        Student joe = new Student("Joe");
+//        Student bill = new Student("Bill");
+//        Student tim = new Student("Tim");
+//
+//        System.out.println(tim.toString());
+//        System.out.println(bill.toString());
 
-        System.out.println(tim.toString());
-        System.out.println(bill.toString());
+//        OuterClass out = new OuterClass();
+//        OuterClass.InnerClass in = out.new InnerClass();
+//
+//        in.display();
+//        OuterClass out = new OuterClass();
+//        out.inner();
+
+//        Car ford = new Car();
+//        ford.speedUp(10);
+//        ford.changeGear(2);
+//        ford.display();
+        int x = Vehicle.math(5);
+//        Math.sqrt();
+
+
+
+
+        System.out.println(x);
+
 
 
 
